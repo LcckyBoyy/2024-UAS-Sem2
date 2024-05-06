@@ -98,7 +98,7 @@ class MenuController extends Controller
     public function destroy(string $id)
     {
         Menu::where('id',$id)->delete();
-        
+        Storage::delete('id');
         return redirect('/admin')->with('succes', 'Menu Deleted');
     }
 }
