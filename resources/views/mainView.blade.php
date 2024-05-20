@@ -9,34 +9,37 @@
 </head>
 
 <body>
-
     <nav class=" backdrop-blur-md bg-emerald-950/80 text-white w-full top-0 fixed z-10">
         <div class="container mx-auto py-4">
             <div class="flex justify-between items-center">
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-2xl font-bold">
+                    <a href="#">
                         <img src="{{ asset('images/rasulicon.png') }}" class="h-9">
                     </a>
                 </div>
-                <div></div>
+                <div class="text-sm font-extralight">
+                    <a href="#" class="mx-6">Home</a>
+                    <a href="#" class="mx-6">Our Menus</a>
+                    <a href="#" class="mx-6">Our Location</a>
+                    <a href="#" class="mx-6">About Us</a>
+                </div>
                 <div class="hidden md:flex items-center">
-                    <!-- <a href="#" class="mx-0">Home</a>
-                    <a href="#" class="mx-3">About</a>
-                    <a href="#" class="mx-0">Contact</a> -->
-                    <div class=" bg-yellow-100 px-4 py-2 rounded-3xl">
-                        <a href="#" class=" text-zinc-900">Visit Us</a>
+                    <div class=" bg-yellow-100 px-5 py-1.5 rounded-3xl text-sm">
+                        <a href="#" class="text-zinc-900">Visit Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class=" bg-emerald-950 h-screen">
-        
+    <div class=" flex items-center justify-center bg-emerald-950 h-screen">
+        <a class=" text-center font-serif text-7xl text-white">
+            Celebes cuisine<br>like never before.
+        </a>
     </div>
 
-    <div class=" bg-white h-screen">
-        
+    <div class=" flex items-center justify-center bg-white h-screen">
+        <a>Hello</a>
     </div>
 
     <div class=" bg-emerald-950 h-screen">
