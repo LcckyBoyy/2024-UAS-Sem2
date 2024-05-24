@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('/');
 
 Route::get('/admin', [MenuController::class, 'index']);
 Route::post('/admin', [MenuController::class, 'store']);
@@ -18,4 +18,4 @@ Route::delete('/admin/{id}', [MenuController::class, 'destroy'])->name('menu.del
 //     return view('mainView');
 // });
 
-Route::get('/mainView', [MainViewController::class, 'index']);
+Route::get('/mainView', [MainViewController::class, 'index'])->name('mainView');
