@@ -30,12 +30,8 @@ return [
     | your mailers below. You may also add additional mailers if needed.
     |
     | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
-<<<<<<< HEAD
-    |            "postmark", "log", "array", "failover", "roundrobin"
-=======
     |            "postmark", "resend", "log", "array",
     |            "failover", "roundrobin"
->>>>>>> new-back
     |
     */
 
@@ -65,13 +61,10 @@ return [
             // ],
         ],
 
-<<<<<<< HEAD
-=======
         'resend' => [
             'transport' => 'resend',
         ],
 
->>>>>>> new-back
         'sendmail' => [
             'transport' => 'sendmail',
             'path' => env('MAIL_SENDMAIL_PATH', '/usr/sbin/sendmail -bs -i'),
